@@ -1,0 +1,688 @@
+[
+  {
+    "application": {
+      "application_id": "APP-2026-0301",
+      "client_name": "Greenfield State Pension Fund",
+      "client_type": "Institutional",
+      "requested_services": "Equity and Fixed Income Management",
+      "estimated_aum": 750000000,
+      "submission_date": "1/6/2026",
+      "status": "New",
+      "description": "State pension fund seeking to allocate $750M across domestic equity and investment-grade fixed income strategies. Standard institutional documentation package received including board resolution, investment policy statement, and authorized signatory list. Existing relationship with our fixed income team through a prior sub-advisory arrangement. Requesting standard onboarding timeline."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.92,
+      "reasoning": "This application presents a standard institutional client profile with no material red flags. The client is a U.S. state pension fund — a government entity subject to public transparency requirements, annual audits, and legislative oversight. State pension funds are not subject to beneficial ownership identification under 31 CFR 1010.230 because they are governmental instrumentalities with publicly disclosed governance structures. The nature and purpose of the relationship is clear: fiduciary asset management for a public retirement system. The requested services (equity and fixed income management) are core institutional offerings with no complex derivative exposure or offshore structuring. The $750M AUM is consistent with mid-sized state pension systems. The firm has an existing relationship with the client through a prior sub-advisory arrangement, providing transaction history and performance data that support the legitimacy of this expansion. Standard institutional documentation has been received, including board resolution (establishing authority to enter into the engagement), investment policy statement (defining permissible investments and risk parameters), and authorized signatory list (identifying individuals with authority to execute on behalf of the fund). No compressed timeline pressure is present — the client is requesting standard onboarding, not expedited processing. No offshore jurisdictions, layered structures, or source-of-funds gaps are present. The source of funds is contributions from public employees and state matching, which is transparent and auditable. No PEP considerations apply — while pension board members may include appointed officials, state pension funds themselves are not treated as PEPs under FATF guidance because they operate under statutory mandates with public oversight. No OFAC concerns are triggered. This case involves zero red flags and complete documentation for a transparent, regulated, domestic governmental entity.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Greenfield State Pension Fund is a U.S. state government pension fund seeking to allocate $750M across domestic equity and investment-grade fixed income strategies. The firm has an existing relationship with the client through a prior sub-advisory arrangement in fixed income. The client has submitted complete standard institutional documentation including board resolution, investment policy statement, and authorized signatory list. As a governmental entity, the fund operates under public transparency requirements and legislative oversight.",
+      "complexity": "STANDARD",
+      "key_requirements": [
+        "Execute standard institutional onboarding workflow",
+        "Review and file board resolution, investment policy statement, and authorized signatory documentation",
+        "Establish separate accounts for equity and fixed income mandates per IPS guidelines",
+        "Coordinate with existing fixed income relationship team for operational continuity",
+        "Complete standard institutional KYC certification"
+      ],
+      "next_steps": [
+        "Assign relationship manager and transition team",
+        "Conduct investment policy statement review to confirm mandate parameters and restrictions",
+        "Complete account setup and custody arrangements",
+        "Initiate portfolio construction process aligned with equity and fixed income allocations",
+        "Schedule kickoff meeting with fund representatives and existing sub-advisory team",
+        "Execute investment management agreements"
+      ],
+      "estimated_timeline": "2-3 weeks for standard institutional onboarding"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0302",
+      "client_name": "Margaret and Theodore Ashworth",
+      "client_type": "High-Net-Worth Individual",
+      "requested_services": "Wealth Management",
+      "estimated_aum": 28000000,
+      "submission_date": "1/7/2026",
+      "status": "New",
+      "description": "Retired couple referred by existing client. U.S.-based, primary residence in Connecticut. Assets from a combination of executive compensation, real estate sales, and inheritance. Seeking discretionary portfolio management with an income focus and moderate risk tolerance. Standard documentation provided. Straightforward case."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.85,
+      "reasoning": "This application presents a standard high-net-worth individual profile with no regulatory red flags. The clients are a retired U.S.-based couple with documented referral from an existing client, which provides reputational validation. The source of funds is clearly articulated and consistent with their profile: executive compensation, real estate sales, and inheritance are all legitimate and verifiable wealth sources typical for retired couples in this demographic. The requested services (discretionary wealth management with income focus) align with their stated retirement status and moderate risk tolerance. The jurisdiction is domestic (Connecticut, U.S.), eliminating cross-border compliance concerns. No beneficial ownership opacity exists—the clients are individuals, not complex entities. No PEP indicators are present. The submission includes standard documentation as noted. The case description characterizes it as straightforward, and the available evidence supports that characterization. No compressed timeline pressure, no refusal of contact, no unverified introducers, and no offshore structures are mentioned. The existing client referral provides a trusted introduction channel. All FATF risk factors (client risk, geographic risk, product risk, delivery channel risk) are in the low range. This case does not trigger any FinCEN CDD concerns, BSA/AML red flags, OFAC screening issues, or PEP considerations. Confidence is set at 0.85 rather than higher because the summary does not specify which exact documents were provided, though it states 'standard documentation provided.' A full compliance file review would confirm completeness, but based on the information available, this is a clear LOW risk assessment appropriate for standard onboarding procedures.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Margaret and Theodore Ashworth are a retired high-net-worth couple based in Connecticut seeking discretionary wealth management services with a $28M portfolio. They were referred by an existing client and present a straightforward profile with wealth derived from executive compensation, real estate sales, and inheritance. They seek income-focused portfolio management with moderate risk tolerance.",
+      "complexity": "STANDARD",
+      "key_requirements": [
+        "Complete standard client documentation collection and verification",
+        "Verify source of funds documentation (executive compensation records, real estate transaction records, inheritance documentation)",
+        "Establish discretionary investment management agreement",
+        "Design income-focused portfolio aligned with moderate risk tolerance",
+        "Confirm existing client referral relationship"
+      ],
+      "next_steps": [
+        "Collect and verify standard KYC documentation (government-issued IDs, proof of residence, tax forms)",
+        "Review and validate source of funds documentation",
+        "Conduct standard OFAC and sanctions screening",
+        "Execute investment management agreement and account opening paperwork",
+        "Assign relationship manager and schedule portfolio construction meeting",
+        "Initiate income-focused portfolio design process"
+      ],
+      "estimated_timeline": "2-3 weeks for standard onboarding"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0303",
+      "client_name": "Apex Global Holdings Ltd",
+      "client_type": "Corporate",
+      "requested_services": "Multi-Asset Management",
+      "estimated_aum": 500000000,
+      "submission_date": "1/8/2026",
+      "status": "New",
+      "description": "Corporate entity registered in an offshore jurisdiction seeking to open a managed account for multi-asset investment. Ownership structure involves three layers of intermediate holding companies across multiple jurisdictions. Beneficial ownership is difficult to determine from submitted documentation — the listed directors appear to be nominee directors from a corporate services firm rather than actual principals. Source of funds documentation references 'diversified business interests' but provides no supporting detail. Client is requesting expedited processing and has pushed back on repeated requests for additional ownership and source-of-funds documentation."
+    },
+    "risk_assessment": {
+      "risk_level": "CRITICAL",
+      "confidence": 0.95,
+      "reasoning": "This application presents multiple severe red flags that align with classic placement and layering typologies under FATF guidance. The combination of beneficial ownership opacity (three-layer holding structure with nominee directors), offshore jurisdiction registration, vague source of funds ('diversified business interests' with no supporting documentation), compressed timeline pressure (expedited processing request), and active resistance to standard due diligence (pushback on documentation requests) creates a pattern consistent with concealment behavior rather than legitimate complexity. The client's refusal to provide beneficial ownership information despite repeated requests violates FinCEN CDD requirements under 31 CFR 1010.230, which mandate identification and verification of beneficial owners. The use of nominee directors from a corporate services firm, combined with multi-jurisdictional layering and no transparent ownership trail, prevents the firm from understanding the nature and purpose of the client relationship as required by BSA/AML regulations. The pushback on documentation requests, when combined with the other factors, suggests the client may be unwilling or unable to provide information necessary for CDD compliance. This is not a documentation gap that can be remediated through follow-up — it is a concealment pattern. The application triggers SAR consideration under 31 CFR 1023.320 on two prongs: (1) the structure appears designed to evade BSA requirements by obscuring beneficial ownership, and (2) the relationship has no apparent lawful purpose given the client's refusal to disclose ownership and source of funds despite managing a proposed $500M AUM. The firm cannot proceed without violating its CDD obligations.",
+      "risk_factors": [
+        "Beneficial ownership opacity — three-layer holding structure with nominee directors from corporate services firm",
+        "Offshore jurisdiction registration",
+        "Source-of-funds gaps — vague 'diversified business interests' description with no supporting documentation",
+        "Compressed timeline pressure — client requesting expedited processing",
+        "Refusal of standard contact — active pushback on repeated documentation requests",
+        "Missing beneficial ownership documentation despite multiple requests",
+        "Missing source-of-funds documentation despite multiple requests",
+        "Concealment pattern — combination of layered structure, nominee directors, and documentation refusal"
+      ],
+      "regulatory_flags": [
+        "FinCEN CDD violation — 31 CFR 1010.230 — unable to identify and verify beneficial owners",
+        "BSA/AML compliance failure — cannot establish nature and purpose of client relationship",
+        "SAR consideration — 31 CFR 1023.320 — designed to evade BSA requirements",
+        "SAR consideration — 31 CFR 1023.320 — no apparent lawful purpose",
+        "FATF placement/layering typology indicators present",
+        "Documentation gap combined with concealment behavior"
+      ],
+      "recommended_action": "Escalate to Chief Compliance Officer — do not proceed"
+    },
+    "onboarding_summary": {
+      "client_overview": "Apex Global Holdings Ltd is a corporate entity registered in an offshore jurisdiction seeking multi-asset management services for an estimated $500M AUM. The ownership structure consists of three layers of intermediate holding companies across multiple jurisdictions with nominee directors from a corporate services firm rather than identifiable beneficial owners. The client has provided vague source of funds documentation referencing 'diversified business interests' without supporting detail, is requesting expedited processing, and has actively resisted repeated requests for beneficial ownership and source-of-funds documentation.",
+      "complexity": "COMPLEX",
+      "key_requirements": [
+        "Beneficial ownership identification and verification per 31 CFR 1010.230",
+        "Complete source of funds documentation with supporting evidence",
+        "Full corporate structure chart identifying ultimate beneficial owners",
+        "Explanation of business purpose and nature of client relationship",
+        "Resolution of documentation gaps before any account opening"
+      ],
+      "next_steps": [
+        "Immediate escalation to Chief Compliance Officer and compliance committee — do not proceed with onboarding",
+        "Prepare Suspicious Activity Report (SAR) filing per 31 CFR 1023.320 for concealment pattern and potential evasion of BSA requirements",
+        "Notify relationship team that engagement cannot proceed without complete beneficial ownership disclosure and source of funds verification",
+        "Document all interactions and documentation requests for regulatory examination file",
+        "If client provides complete beneficial ownership and source of funds documentation, conduct enhanced due diligence including external screening, adverse media search, and senior compliance review before reconsideration",
+        "Consider formal declination of engagement if client continues to refuse standard CDD documentation"
+      ],
+      "estimated_timeline": "Timeline suspended pending compliance committee decision and potential SAR filing — engagement cannot proceed in current state"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0304",
+      "client_name": "Pacific Northwest Teachers Retirement System",
+      "client_type": "Institutional",
+      "requested_services": "Fixed Income and Real Assets",
+      "estimated_aum": 1200000000,
+      "submission_date": "1/9/2026",
+      "status": "New",
+      "description": "Public pension fund seeking to allocate $1.2B across investment-grade fixed income and real asset strategies. Full documentation package received. Investment committee approval confirmed. Dedicated relationship manager already assigned. Client has a 10-year track record with a competing firm and is transitioning assets. Requesting a phased onboarding — $400M initial, remainder over 6 months. Compliance review expected to be straightforward."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.95,
+      "reasoning": "This application presents a standard institutional client profile with no red flags. The client is a U.S. public pension fund with transparent governance, full documentation, and a well-established operating history. Public pension funds are regulated entities subject to fiduciary oversight and public disclosure requirements, which provides structural transparency regarding beneficial ownership, source of funds, and investment purpose. The $1.2B AUM is consistent with the scale of a state-level teachers retirement system. The phased onboarding approach ($400M initial, remainder over 6 months) is standard practice for large institutional transitions and does not present timeline pressure concerns. The client has a 10-year track record with a competing firm, indicating established presence in the institutional asset management market. The requested services (investment-grade fixed income and real assets) align with typical pension fund portfolio construction and liability-matching strategies. Full documentation has been received, investment committee approval is confirmed, and a dedicated relationship manager is assigned — all indicators of standard institutional onboarding procedures. No PEP indicators are present (public pension boards are not classified as PEPs under FinCEN guidance). No offshore jurisdictions, beneficial ownership opacity, or source-of-funds gaps are evident. The client's status as a U.S. public entity subject to ERISA fiduciary standards and state regulatory oversight provides inherent transparency. Under the FATF risk-based approach, this client falls into the lowest risk category for AML/CFT purposes. No enhanced due diligence is required under 31 CFR 1010.230.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Pacific Northwest Teachers Retirement System is a U.S. public pension fund seeking to allocate $1.2B across investment-grade fixed income and real asset strategies. The client has a 10-year track record with a competing firm and is transitioning assets in a phased approach—$400M initially, with the remainder over 6 months. Full documentation has been received, investment committee approval is confirmed, and a dedicated relationship manager is already assigned. The client presents a transparent, well-governed institutional profile with no compliance concerns.",
+      "complexity": "STANDARD",
+      "key_requirements": [
+        "Execute phased onboarding for $1.2B allocation ($400M initial tranche, remainder over 6 months)",
+        "Establish investment-grade fixed income and real assets portfolio strategies aligned with pension liability-matching objectives",
+        "Coordinate asset transition from existing manager to minimize market exposure and transaction costs",
+        "Formalize dedicated relationship manager structure and establish regular reporting cadence"
+      ],
+      "next_steps": [
+        "Complete standard institutional account opening documentation and KYC verification",
+        "Coordinate with operations team to schedule phased asset transfer ($400M initial funding)",
+        "Engage portfolio management team to construct investment-grade fixed income and real assets allocations per IPS guidelines",
+        "Schedule relationship manager kickoff meeting with client investment committee",
+        "Establish reporting framework and performance measurement protocols for ongoing relationship management"
+      ],
+      "estimated_timeline": "2-3 weeks for initial account setup and first tranche funding; full transition completed within 6 months per client's phased onboarding schedule"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0305",
+      "client_name": "James Okafor",
+      "client_type": "High-Net-Worth Individual",
+      "requested_services": "Wealth Management and Trust Services",
+      "estimated_aum": 42000000,
+      "submission_date": "1/10/2026",
+      "status": "New",
+      "description": "U.S. citizen currently on a multi-year overseas work assignment for a multinational energy company. Source of wealth is executive compensation and stock options from 18-year career. Seeking wealth management services including a generation-skipping trust and two irrevocable life insurance trusts. Multiple entity structures will be involved. Requesting coordination with his estate planning attorney. Moderate complexity due to international residency and trust structures."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.85,
+      "reasoning": "This application presents a standard high-net-worth individual profile with no material red flags. The client is a U.S. citizen with an 18-year career track record in the energy sector, which provides a clear and documented source of wealth through executive compensation and stock options. The estimated AUM of $42 million is consistent with senior executive compensation in the energy industry over nearly two decades. The requested services—wealth management, generation-skipping trust, and irrevocable life insurance trusts—are standard estate planning vehicles for high-net-worth individuals seeking multigenerational wealth transfer and tax optimization. The international residency is explained by a legitimate work assignment with a multinational company, not by an attempt to obscure beneficial ownership or evade reporting requirements. The client's request for coordination with an estate planning attorney is a positive indicator of proper planning and transparency. While the trust structures and multiple entities add structural complexity, this complexity is purpose-driven (estate planning and tax efficiency) and does not involve regulatory coordination requirements such as insider trading rules, securities disclosure obligations, or cross-border compliance beyond standard tax reporting. The client type, jurisdiction, source of funds, and requested services are all well-understood and consistent with the stated purpose. No PEP indicators are present. No offshore secrecy jurisdictions are mentioned. No beneficial ownership opacity exists—the client is the identifiable beneficial owner seeking standard fiduciary services. No documentation gaps are indicated. No timeline pressure or refusal of contact is present. The case requires standard CDD procedures but does not trigger enhanced due diligence requirements under the FATF risk-based approach or FinCEN CDD rules. Confidence is set at 0.85 rather than higher due to the lack of explicit confirmation that source-of-wealth documentation and beneficial ownership verification have been completed, but the application narrative provides sufficient detail to support a LOW risk assessment pending standard documentation review.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "U.S. citizen high-net-worth individual with $42 million in assets seeking wealth management and trust services. Client is a senior executive in the energy sector with 18 years of career history, currently on an overseas work assignment. Source of wealth is documented through executive compensation and stock options. Requesting establishment of generation-skipping trust and two irrevocable life insurance trusts for multigenerational wealth transfer and tax optimization, with coordination required with existing estate planning attorney.",
+      "complexity": "ELEVATED",
+      "key_requirements": [
+        "Complete source of wealth and funds documentation (executive compensation records, stock option exercise history)",
+        "W-8BEN or W-9 tax forms with current residency information",
+        "Coordination with client's estate planning attorney for trust structure design",
+        "Beneficial ownership verification for all trust entities",
+        "FATCA compliance documentation for international residency",
+        "Standard CDD documentation package"
+      ],
+      "next_steps": [
+        "Initiate standard document collection including identity verification, proof of address, and tax documentation",
+        "Request executive compensation history and stock option documentation to verify source of wealth",
+        "Establish contact with client's estate planning attorney to coordinate trust structure requirements",
+        "Assign relationship manager experienced in international clients and complex trust structures",
+        "Complete account setup and beneficial ownership verification for wealth management account",
+        "Develop generation-skipping trust and ILIT structures in coordination with estate planning counsel",
+        "Conduct portfolio construction aligned with trust funding requirements",
+        "Schedule relationship manager introduction and service orientation"
+      ],
+      "estimated_timeline": "4-6 weeks for initial account setup and trust structure design, with trust implementation extending 8-10 weeks depending on attorney coordination"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0306",
+      "client_name": "Brightpath University Endowment",
+      "client_type": "Institutional",
+      "requested_services": "Equity and Alternatives",
+      "estimated_aum": 320000000,
+      "submission_date": "1/10/2026",
+      "status": "New",
+      "description": "University endowment seeking to allocate $320M across domestic equity, international equity, and alternative strategies (hedge fund allocation). Investment committee documentation provided. Endowment has specific ESG exclusion requirements — no fossil fuels, no private prisons, no tobacco. Board resolution pending final signature. Requesting that onboarding begin in parallel with the final approval to meet a Q2 funding deadline."
+    },
+    "risk_assessment": {
+      "risk_level": "MEDIUM",
+      "confidence": 0.75,
+      "reasoning": "This application presents a standard institutional client profile — a university endowment — with complete transparency regarding client type, purpose, and investment objectives. The $320M AUM is consistent with mid-sized university endowments, and the ESG exclusion requirements (fossil fuels, private prisons, tobacco) align with common institutional policy frameworks. Investment committee documentation has been provided, demonstrating governance oversight. However, two factors elevate this from LOW to MEDIUM risk: (1) the board resolution is pending final signature, creating a documentation gap at intake, and (2) the client is requesting parallel onboarding before final approval to meet a Q2 funding deadline, which introduces compressed timeline pressure. While university endowments are generally low-risk counterparties, the request to begin onboarding before governance authorization is finalized creates a procedural risk. The firm must ensure that the board resolution is executed and that all fiduciary authority is documented before any investment activity occurs. The compressed timeline does not present red flags consistent with concealment or evasion, but it does require active coordination to ensure compliance with the endowment's own governance requirements. This is regulated-activity coordination (fiduciary documentation, investment policy compliance) rather than structural complexity, which places it in MEDIUM. No PEP indicators, offshore structures, beneficial ownership opacity, or source-of-funds gaps are present. No sanctions or OFAC concerns. The ESG requirements are policy-driven and do not present compliance risk.",
+      "risk_factors": [
+        "Compressed timeline pressure — client requesting parallel onboarding before board resolution is finalized to meet Q2 funding deadline",
+        "Documentation gap — board resolution pending final signature at time of application submission"
+      ],
+      "regulatory_flags": [
+        "Pending board resolution — verify fiduciary authority before proceeding with any investment activity",
+        "ESG exclusion requirements noted — coordinate with investment team to ensure policy compliance"
+      ],
+      "recommended_action": "Proceed with enhanced documentation review"
+    },
+    "onboarding_summary": {
+      "client_overview": "Brightpath University Endowment is a mid-sized institutional client seeking to allocate $320M across domestic equity, international equity, and alternative strategies including hedge fund allocation. The endowment operates under specific ESG exclusion requirements (no fossil fuels, private prisons, or tobacco) and has provided investment committee documentation demonstrating governance oversight. The client has requested parallel onboarding to meet a Q2 funding deadline while awaiting final board resolution signature.",
+      "complexity": "ELEVATED",
+      "key_requirements": [
+        "Finalize and obtain executed board resolution with fiduciary authorization before any investment activity",
+        "Verify investment committee authority and governance documentation",
+        "Implement ESG exclusion requirements across equity and alternatives portfolios (fossil fuels, private prisons, tobacco)",
+        "Coordinate with investment team to structure hedge fund allocation compliant with endowment policy",
+        "Meet Q2 funding deadline while ensuring all governance requirements are satisfied"
+      ],
+      "next_steps": [
+        "Initiate standard institutional onboarding workflow with documentation collection (investment policy statement, committee resolutions, authorized signers)",
+        "Establish compliance checkpoint: obtain executed board resolution and verify fiduciary authority before proceeding to account opening",
+        "Conduct enhanced documentation review focusing on governance authorization and ESG policy compliance",
+        "Coordinate with investment team early to confirm ESG screening capabilities and hedge fund allocation options that meet exclusion criteria",
+        "Schedule compliance review meeting once board resolution is executed to clear any remaining documentation gaps",
+        "Assign relationship manager and establish Q2 timeline milestones with built-in governance approval checkpoints"
+      ],
+      "estimated_timeline": "4-6 weeks, contingent on timely receipt of executed board resolution and successful governance documentation review to meet Q2 funding deadline"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0307",
+      "client_name": "Velocity Venture Partners LLC",
+      "client_type": "Corporate",
+      "requested_services": "Alternative Investments",
+      "estimated_aum": 85000000,
+      "submission_date": "1/12/2026",
+      "status": "New",
+      "description": "Venture capital firm seeking to place $85M in our alternative investment strategies on behalf of their fund's limited partners. General partner is a former senior government official who left office 14 months ago — compliance pre-screening recommended due to politically exposed person (PEP) status. Fund documentation lists investors from multiple countries across several regions. KYC documentation is partially complete — missing certified copies of fund formation documents and an updated list of limited partners."
+    },
+    "risk_assessment": {
+      "risk_level": "HIGH",
+      "confidence": 0.82,
+      "reasoning": "This application presents multiple elevated risk factors that require enhanced due diligence before onboarding. First, the general partner is a former senior government official who departed public office only 14 months ago, triggering PEP status under FATF Recommendation 12. The recent departure (under 24 months) means this individual still carries heightened corruption risk and political influence, requiring enhanced scrutiny of source of funds and wealth accumulation. Second, the fund structure involves multiple international limited partners across several regions, creating beneficial ownership complexity that must be fully documented under FinCEN's CDD Rule (31 CFR 1010.230). Third, critical KYC documentation is incomplete — specifically missing certified fund formation documents and an updated LP list. Without these materials, the firm cannot verify beneficial ownership or assess whether any LPs appear on OFAC sanctions lists or present additional PEP exposure. The combination of PEP status, cross-border investor base, and incomplete beneficial ownership documentation elevates this beyond MEDIUM risk. Under the risk tier framework, two or more red flags present (PEP status + documentation gaps) mandate HIGH classification. The $85M placement size also amplifies the materiality of any compliance failure. This does not rise to CRITICAL because there is no evidence of concealment behavior, refusal of contact, or patterns consistent with FATF placement/layering typologies — the PEP status was disclosed upfront and the documentation gaps appear correctable rather than indicative of obstruction. However, the firm cannot proceed without completing enhanced due diligence, obtaining the missing formation documents, verifying the full LP roster against sanctions lists and PEP databases, and conducting source-of-wealth analysis on the general partner to ensure the transition from public office to fund management involved no corruption or abuse-of-office concerns.",
+      "risk_factors": [
+        "PEP status — former senior government official, departed office 14 months ago",
+        "Beneficial ownership opacity — missing updated list of limited partners",
+        "Cross-border investor base — multiple countries across several regions increases sanctions screening and PEP exposure",
+        "Documentation gaps — missing certified fund formation documents",
+        "Documentation gaps — missing updated limited partner roster required for beneficial ownership verification under 31 CFR 1010.230"
+      ],
+      "regulatory_flags": [
+        "FATF Recommendation 12 — PEP enhanced due diligence required",
+        "FinCEN CDD Rule (31 CFR 1010.230) — beneficial ownership verification incomplete",
+        "OFAC sanctions screening cannot be completed without full LP list",
+        "Missing KYC documentation — certified fund formation documents required",
+        "Missing KYC documentation — current limited partner roster required"
+      ],
+      "recommended_action": "Enhanced due diligence required — human review mandatory"
+    },
+    "onboarding_summary": {
+      "client_overview": "Velocity Venture Partners LLC is a venture capital firm seeking to place $85M in alternative investment strategies on behalf of their fund's limited partners. The general partner is a former senior government official who left office 14 months ago, triggering PEP status. The fund has a multi-jurisdictional investor base. Critical KYC documentation is incomplete, including certified fund formation documents and an updated LP roster, preventing full beneficial ownership verification and sanctions screening.",
+      "complexity": "COMPLEX",
+      "key_requirements": [
+        "Enhanced due diligence on general partner due to PEP status (former senior government official, departed office 14 months ago)",
+        "Source of wealth and source of funds analysis for general partner to verify legitimate transition from public office to fund management",
+        "Complete beneficial ownership verification under FinCEN CDD Rule (31 CFR 1010.230) — obtain certified fund formation documents and current LP roster",
+        "OFAC sanctions screening of all limited partners across multiple jurisdictions",
+        "PEP database screening of all limited partners to identify additional politically exposed persons",
+        "Cross-border investor due diligence for multi-jurisdictional LP base",
+        "Compliance committee review and approval before proceeding with onboarding"
+      ],
+      "next_steps": [
+        "Immediate escalation to compliance committee for HIGH risk application review",
+        "Request certified copies of fund formation documents (articles of organization, operating agreement, fund documents)",
+        "Request complete and current limited partner roster with identifying information for all beneficial owners",
+        "Conduct enhanced due diligence on general partner — source of wealth analysis, background screening, media search for corruption or abuse-of-office concerns",
+        "Upon receipt of LP roster, conduct comprehensive OFAC sanctions screening and PEP database checks on all limited partners",
+        "Assign senior relationship manager with alternative investments and institutional client experience",
+        "If compliance committee approves and documentation remediation is successful, proceed with enhanced ongoing monitoring protocols",
+        "Document all due diligence findings and compliance committee decision in client file"
+      ],
+      "estimated_timeline": "8-12 weeks pending compliance committee review and documentation remediation — timeline contingent on client responsiveness in providing missing KYC materials and satisfactory resolution of PEP due diligence"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0308",
+      "client_name": "Linda Vasquez",
+      "client_type": "High-Net-Worth Individual",
+      "requested_services": "Wealth Management",
+      "estimated_aum": 9500000,
+      "submission_date": "1/13/2026",
+      "status": "New",
+      "description": "Individual client referred through our branch in San Francisco. Recently divorced, assets are from the divorce settlement. Seeking conservative portfolio management with a focus on capital preservation. All standard documentation provided. Straightforward onboarding expected."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.85,
+      "reasoning": "This application presents a standard high-net-worth individual profile with clear source of funds documentation and no elevated risk factors. The client is a US-based individual referred through an established branch channel, with a well-documented life event (divorce settlement) explaining the source of assets. The requested service (conservative wealth management with capital preservation focus) is consistent with the client's stated circumstances. All standard documentation has been provided, indicating cooperative engagement with the onboarding process. No beneficial ownership complexity exists for an individual client. No PEP indicators are present. The US jurisdiction presents no enhanced geographic risk. The stated AUM of $9.5M is within typical ranges for wealth management services and proportionate to a divorce settlement for a high-net-worth individual. No compressed timeline pressure, refusal of contact, or documentation gaps are evident. The application does not trigger any FATF risk factors, FinCEN CDD concerns, BSA/AML red flags, OFAC/sanctions screening issues, or SAR consideration criteria. The branch referral provides established relationship verification, eliminating unverified introducer concerns. The straightforward nature of the case, combined with complete documentation and transparent source of funds, supports a LOW risk classification under the risk-based approach.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Linda Vasquez is a high-net-worth individual seeking conservative wealth management services with approximately $9.5M in assets. She was referred through our San Francisco branch following a divorce, with assets originating from the divorce settlement. Ms. Vasquez is looking for capital preservation-focused portfolio management and has provided all standard documentation, presenting a straightforward onboarding case.",
+      "complexity": "STANDARD",
+      "key_requirements": [
+        "Complete standard account opening documentation",
+        "Establish investment policy statement focused on capital preservation",
+        "Design conservative asset allocation appropriate for post-divorce wealth preservation",
+        "Assign relationship manager from San Francisco branch for continuity"
+      ],
+      "next_steps": [
+        "Verify and process all submitted documentation",
+        "Complete standard KYC/CDD procedures and account setup",
+        "Conduct initial client consultation to finalize investment objectives and risk tolerance",
+        "Develop proposed conservative portfolio allocation aligned with capital preservation goals",
+        "Introduce assigned relationship manager and schedule onboarding meeting",
+        "Execute account funding and initial portfolio construction"
+      ],
+      "estimated_timeline": "2-3 weeks for standard onboarding"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0309",
+      "client_name": "Northern Lights Sovereign Wealth Fund",
+      "client_type": "Institutional",
+      "requested_services": "Multi-Asset Management",
+      "estimated_aum": 2000000000,
+      "submission_date": "1/14/2026",
+      "status": "New",
+      "description": "Large sovereign wealth fund seeking to allocate $2B across global equity, fixed income, and real asset strategies. Extensive due diligence documentation provided. The fund has its own compliance requirements and is requesting reciprocal KYC — they want to review our compliance practices as part of their due diligence on us. Requesting a dedicated onboarding team and weekly status calls. Largest potential new client relationship this quarter."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.85,
+      "reasoning": "Northern Lights Sovereign Wealth Fund presents a standard institutional client profile consistent with LOW risk classification under the FATF risk-based approach. Sovereign wealth funds are government-owned investment vehicles with transparent ownership structures and well-documented sources of funds (typically derived from natural resource revenues, foreign exchange reserves, or fiscal surpluses). The $2B AUM allocation is consistent with typical sovereign wealth fund mandates for portfolio diversification across asset classes. The client type (institutional/governmental) provides inherent beneficial ownership clarity — the ultimate beneficial owner is the sovereign state itself, satisfying FinCEN CDD requirements under 31 CFR 1010.230. The request for reciprocal KYC is a standard practice among institutional investors conducting their own due diligence on asset managers and reflects sophisticated governance practices rather than evasion behavior. The request for dedicated onboarding support and weekly status calls is consistent with the complexity and size of the relationship, not indicative of timeline pressure or refusal of standard contact. The application notes that extensive due diligence documentation has been provided, suggesting completeness of KYC materials. No red flags are present: no beneficial ownership opacity (sovereign ownership is transparent), no PEP concerns beyond the inherent governmental nature of the entity (which is disclosed and appropriate for this client type), no offshore secrecy jurisdiction issues, no source-of-funds gaps (sovereign wealth fund sources are well-understood), no compressed timeline pressure beyond standard business expectations, no refusal of contact (weekly calls requested), and no unverified introducers mentioned. The regulatory flags array includes standard sovereign wealth fund considerations but none that elevate risk. Confidence is 0.85 rather than 0.9+ because the assessment is based on the application summary without direct review of the 'extensive due diligence documentation' referenced — human verification of completeness is appropriate but does not change the risk tier.",
+      "risk_factors": [],
+      "regulatory_flags": [
+        "Sovereign wealth fund — government-owned entity — standard institutional KYC applies",
+        "Reciprocal due diligence requested — client conducting own compliance review of firm"
+      ],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Northern Lights Sovereign Wealth Fund is a government-owned institutional investor seeking to allocate $2B across multi-asset strategies including global equity, fixed income, and real assets. As a sovereign wealth fund, they represent a transparent ownership structure with well-documented fund sources. The client has provided extensive due diligence documentation and is requesting reciprocal KYC to review our firm's compliance practices, which is standard practice for sophisticated institutional investors of this caliber. This represents the largest potential new client relationship this quarter.",
+      "complexity": "ELEVATED",
+      "key_requirements": [
+        "Dedicated onboarding team assignment",
+        "Weekly status call cadence throughout onboarding",
+        "Reciprocal due diligence materials preparation for client review of firm compliance practices",
+        "Multi-asset portfolio construction across global equity, fixed income, and real asset strategies",
+        "Standard institutional KYC documentation verification",
+        "Government entity ownership documentation review"
+      ],
+      "next_steps": [
+        "Assign dedicated onboarding team and senior relationship manager",
+        "Verify completeness of provided due diligence documentation against institutional KYC requirements",
+        "Prepare reciprocal due diligence materials for client's compliance review of firm",
+        "Schedule initial onboarding kick-off call and establish weekly status call rhythm",
+        "Coordinate with portfolio management teams across equity, fixed income, and real assets for $2B allocation planning",
+        "Complete standard institutional client documentation and account setup",
+        "Conduct final compliance review and obtain internal approval for relationship establishment"
+      ],
+      "estimated_timeline": "4-6 weeks to accommodate reciprocal due diligence process and coordination across multiple asset class teams for $2B allocation"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0310",
+      "client_name": "Heritage Family Office",
+      "client_type": "Family Office",
+      "requested_services": "Comprehensive Wealth Management",
+      "estimated_aum": 175000000,
+      "submission_date": "1/15/2026",
+      "status": "New",
+      "description": "Multi-generational family office managing wealth for 14 family members across three generations. Assets are distributed across trusts, LLCs, individual accounts, and a family foundation. Requesting consolidated reporting across all entities, tax-lot accounting, and coordination with three external advisors (tax attorney, estate planner, and insurance broker). Previous firm relationship ended due to dissatisfaction with reporting capabilities. Complex onboarding with an estimated 22 separate accounts to be established."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.85,
+      "reasoning": "This application presents a standard multi-generational family office profile with structural complexity that does not elevate compliance risk. The $175M AUM across 14 family members and 22 accounts is consistent with typical family office architecture where generational wealth transfer planning creates layered entity structures (trusts, LLCs, foundation). The stated reason for leaving the previous firm—dissatisfaction with reporting capabilities—is a common and legitimate business rationale that does not suggest concealment or evasion. The request for consolidated reporting and tax-lot accounting aligns with the sophisticated needs of high-net-worth families managing multi-entity structures. The presence of three named external advisors (tax attorney, estate planner, insurance broker) indicates transparent professional coordination rather than opacity. No beneficial ownership gaps are present—the application identifies 14 family members as the ultimate beneficial owners. No PEP indicators, offshore jurisdiction flags, source-of-funds gaps, compressed timeline pressure, refusal of contact, or unverified introducers are evident. The complexity here is structural and administrative, not regulatory. This does not involve regulated activity requiring ongoing compliance coordination (no insider trading rules, no cross-border reporting triggers, no PEP disclosure obligations). The onboarding will require careful account mapping and documentation to ensure all 22 accounts are properly titled and linked, but this is operational diligence, not enhanced due diligence under AML/CFT frameworks. Standard CDD procedures are sufficient.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Heritage Family Office is a multi-generational family office managing $175M in assets for 14 family members across three generations. The client seeks comprehensive wealth management with consolidated reporting across 22 accounts distributed among trusts, LLCs, individual accounts, and a family foundation. They require coordination with three external advisors and are transitioning from a previous firm due to reporting inadequacies. This represents a sophisticated family office with typical structural complexity driven by estate planning and generational wealth transfer objectives.",
+      "complexity": "ELEVATED",
+      "key_requirements": [
+        "Establish and properly title 22 separate accounts across multiple entity types (trusts, LLCs, individuals, foundation)",
+        "Implement consolidated reporting system spanning all accounts and entities",
+        "Configure tax-lot accounting capabilities across the entire account structure",
+        "Establish coordination protocols with three external advisors (tax attorney, estate planner, insurance broker)",
+        "Document complete account mapping showing relationships between all entities and the 14 beneficial owners",
+        "Complete standard CDD documentation for all account types and beneficial owners"
+      ],
+      "next_steps": [
+        "Assign dedicated relationship manager experienced with multi-generational family offices",
+        "Conduct initial discovery meeting to map all 22 account structures and beneficial ownership relationships",
+        "Request standard documentation package for all entities (trust agreements, LLC operating agreements, foundation documents, individual identification)",
+        "Obtain CDD documentation for all 14 family members as beneficial owners",
+        "Coordinate with external advisors to establish communication protocols and information sharing agreements",
+        "Configure account architecture in portfolio management system with proper entity linking",
+        "Set up consolidated reporting template for client review and approval",
+        "Execute standard account opening procedures across all 22 accounts",
+        "Schedule portfolio construction review with investment committee"
+      ],
+      "estimated_timeline": "4-6 weeks for account establishment and initial setup, acknowledging the operational complexity of coordinating 22 accounts across multiple entity types, though no enhanced due diligence delays are anticipated given the LOW risk assessment"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0311",
+      "client_name": "Eastbridge Trading Group Ltd",
+      "client_type": "Corporate",
+      "requested_services": "Fixed Income Management",
+      "estimated_aum": 45000000,
+      "submission_date": "1/16/2026",
+      "status": "New",
+      "description": "Recently incorporated trading company seeking to invest $45M in short-duration fixed income as a cash management strategy. Company was formed just 8 months ago with limited operating history. Beneficial owner is also the sole director. Source of funds is described as 'trading profits' but supporting documentation is minimal — no audited financials or bank statements provided. Client insists on a compressed onboarding timeline and has expressed frustration with documentation requirements. Relationship manager flagged this for compliance pre-review."
+    },
+    "risk_assessment": {
+      "risk_level": "HIGH",
+      "confidence": 0.85,
+      "reasoning": "This application presents multiple red flags that elevate it to HIGH risk under the risk-based approach mandated by FATF Recommendations and FinCEN CDD requirements. First, the company has limited operating history (8 months since incorporation), which alone does not constitute high risk, but when combined with minimal documentation of source of funds, creates significant CDD gaps. The client describes source of funds as 'trading profits' without providing audited financials or bank statements — this constitutes a source-of-funds gap under red flag category 4. Second, the client is exhibiting compressed timeline pressure (red flag category 5) and has expressed frustration with standard documentation requirements, which is a behavioral indicator of unwillingness to comply with CDD obligations under 31 CFR 1010.230. Third, the beneficial owner is also the sole director with no disclosed corporate governance structure, which raises questions about the legitimacy of the corporate form and whether it serves a lawful business purpose. The combination of recent incorporation, undocumented source of funds, sole beneficial ownership, and resistance to documentation requirements creates a pattern consistent with potential BSA/AML concerns. Under the Missing Information Rule, the absence of audited financials and bank statements must elevate the risk level — this is not a LOW risk case with correctable documentation gaps. The client's pushback on documentation combined with vague source-of-funds description suggests this may not be a simple administrative delay but rather unwillingness to provide information necessary for CDD compliance. While the pattern does not yet rise to CRITICAL (no evidence of placement/layering typology, no refusal of contact, no unverified introducers), it presents two red flags (source-of-funds gaps + compressed timeline pressure) which meets the threshold for HIGH risk. Enhanced due diligence is required before any onboarding decision, and human review is mandatory.",
+      "risk_factors": [
+        "Limited operating history with undocumented source of funds — company incorporated 8 months ago with minimal operating history, no audited financials, and vague source-of-funds description (trading profits)",
+        "Source-of-funds gaps — description of 'trading profits' without supporting bank statements or audited financials",
+        "Compressed timeline pressure — client expressing frustration with documentation requirements and insisting on expedited onboarding",
+        "Sole beneficial ownership with no disclosed governance structure — beneficial owner is also sole director"
+      ],
+      "regulatory_flags": [
+        "FinCEN CDD 31 CFR 1010.230 — insufficient documentation to verify nature and purpose of client relationship",
+        "BSA/AML — source of funds cannot be verified with available documentation",
+        "Missing documentation — audited financials required",
+        "Missing documentation — bank statements or trading account statements required to verify source of funds"
+      ],
+      "recommended_action": "Enhanced due diligence required — human review mandatory"
+    },
+    "onboarding_summary": {
+      "client_overview": "Eastbridge Trading Group Ltd is a recently incorporated (8-month-old) trading company seeking fixed income cash management services for $45M. The entity has a sole beneficial owner who also serves as sole director, with limited operating history and minimal documentation provided. Source of funds is described as 'trading profits' but lacks supporting bank statements or audited financials. The client has expressed frustration with standard documentation requirements and is requesting compressed onboarding timelines, prompting a compliance pre-review flag.",
+      "complexity": "COMPLEX",
+      "key_requirements": [
+        "Enhanced due diligence documentation package: audited financial statements, bank statements covering source of funds period, trading account statements substantiating 'trading profits' claim",
+        "Beneficial ownership verification and background screening on sole director/owner",
+        "Corporate governance documentation: articles of incorporation, organizational chart, business plan demonstrating legitimate business purpose",
+        "Source of funds verification with independent corroboration (not client-provided narratives)",
+        "Compliance committee pre-approval before any account opening or portfolio construction",
+        "Risk-based CDD procedures per 31 CFR 1010.230 including enhanced ongoing monitoring protocols"
+      ],
+      "next_steps": [
+        "Immediate escalation to compliance committee for HIGH risk review and determination on whether to proceed",
+        "Outreach to relationship manager to communicate mandatory enhanced due diligence requirements and set expectations that compressed timeline cannot be accommodated",
+        "Request comprehensive documentation package: 3 years audited financials (or since incorporation), 12 months bank statements, trading account statements evidencing source of funds, corporate governance documents",
+        "Conduct enhanced background screening on beneficial owner/sole director including adverse media, sanctions, PEP screening, and business reputation checks",
+        "If documentation is provided and satisfactory, conduct compliance committee review of complete file before onboarding decision",
+        "If client refuses documentation or exhibits continued resistance, prepare decline recommendation with SAR consideration per BSA reporting obligations"
+      ],
+      "estimated_timeline": "Timeline suspended pending compliance committee decision and receipt of satisfactory enhanced due diligence documentation. If client cooperates fully, expect 10-14 weeks minimum from documentation receipt to onboarding completion. If documentation resistance continues, recommend declining engagement within 2-3 weeks."
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0312",
+      "client_name": "Midwest Municipal Workers Union",
+      "client_type": "Institutional",
+      "requested_services": "Fixed Income Management",
+      "estimated_aum": 180000000,
+      "submission_date": "1/17/2026",
+      "status": "New",
+      "description": "Municipal workers union pension fund seeking conservative fixed income management for $180M. Full documentation package received including trust agreement, investment policy statement, and board resolution. Union has 12,000 members. Investment policy mandates investment-grade only, no derivatives. Straightforward institutional onboarding. Client's current manager is retiring and they are transitioning all assets."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.92,
+      "reasoning": "This is a standard institutional client profile with no red flags present. The Midwest Municipal Workers Union is a domestic pension fund with a clear, legitimate purpose: conservative fixed income management for a 12,000-member municipal workers union. The $180M AUM is consistent with a union of this size. The client type (pension fund), investment mandate (investment-grade fixed income only, no derivatives), and stated purpose (transition from retiring manager) are all transparent and well-documented. Full documentation has been received including trust agreement, investment policy statement, and board resolution, which satisfies FinCEN CDD requirements for identifying the nature and purpose of the relationship. There are no beneficial ownership concerns — pension funds are regulated entities with clear governance structures. No PEP indicators are present. The domestic jurisdiction presents no sanctions or offshore risk. No source-of-funds gaps exist — pension assets are accumulated through member contributions over time, which is standard for this client type. No timeline pressure, refusal of contact, or unverified introducer concerns. The investment policy mandate (investment-grade only, no derivatives) is consistent with fiduciary standards for pension funds and demonstrates prudent risk management. This case presents no FATF risk factors, no BSA/AML concerns, and no regulatory flags requiring enhanced due diligence.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Midwest Municipal Workers Union is a domestic pension fund representing 12,000 municipal workers, seeking conservative fixed income management for $180M in assets. The union is transitioning from their current manager who is retiring. Their investment policy mandates investment-grade securities only with no derivatives, reflecting appropriate fiduciary standards. Complete documentation has been received including trust agreement, investment policy statement, and board resolution.",
+      "complexity": "STANDARD",
+      "key_requirements": [
+        "Investment-grade fixed income mandate with no derivatives usage",
+        "Pension fund fiduciary reporting and compliance",
+        "Transition management from existing manager to ensure continuity",
+        "Quarterly performance reporting aligned with union board governance requirements"
+      ],
+      "next_steps": [
+        "Complete standard KYC documentation review and account setup",
+        "Assign relationship manager and fixed income portfolio management team",
+        "Develop transition plan with timeline for asset transfer from current manager",
+        "Construct investment-grade fixed income portfolio consistent with investment policy statement",
+        "Schedule introductory meeting with union board investment committee"
+      ],
+      "estimated_timeline": "2-3 weeks for standard onboarding"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0313",
+      "client_name": "Robert and Diane Mercer-Hastings",
+      "client_type": "High-Net-Worth Individual",
+      "requested_services": "Wealth Management and Estate Planning",
+      "estimated_aum": 67000000,
+      "submission_date": "1/18/2026",
+      "status": "New",
+      "description": "Husband and wife — he is CEO of a publicly traded healthcare company; she is a partner at a law firm. Assets include concentrated stock position ($40M in employer stock), real estate portfolio, and cash from recent stock sales. Seeking diversification strategy for the concentrated position, comprehensive wealth management, and estate planning coordination. Application notes potential 10b5-1 plan involvement. Requires coordination with corporate counsel on trading window restrictions."
+    },
+    "risk_assessment": {
+      "risk_level": "MEDIUM",
+      "confidence": 0.85,
+      "reasoning": "This application presents a standard high-net-worth executive profile with one clear regulatory coordination requirement that elevates it from LOW to MEDIUM risk under the framework's regulated-activity provision. Robert Mercer-Hastings holds a concentrated stock position ($40M in employer stock from his publicly traded healthcare company CEO role) and the application explicitly notes potential 10b5-1 plan involvement and trading window restrictions. This triggers securities law coordination requirements under Rule 10b5-1 (insider trading safe harbor), Section 16 reporting obligations for corporate insiders, and potential Form 4 filing requirements. The presence of regulated-activity coordination is itself a MEDIUM trigger per the framework — even with full disclosure, ongoing compliance coordination with securities regulations is required. The client profile is otherwise transparent: married couple with documented professional backgrounds (CEO and law firm partner), clear source of funds (employer stock and recent stock sales), legitimate business purpose (diversification of concentrated position and estate planning), and standard wealth management objectives. No beneficial ownership opacity, no PEP indicators, no offshore structures, no documentation gaps, no timeline pressure, and no refusal of contact. The concentrated stock position with 10b5-1 planning does not present AML/CFT risk — it presents securities compliance coordination requirements. This is the textbook example of regulated activity requiring elevated attention: structural complexity (concentrated position, trading restrictions) combined with regulatory coordination needs (insider trading rules, trading windows, disclosure obligations) equals MEDIUM, not LOW. Enhanced documentation review will ensure proper coordination with corporate counsel and compliance with securities law safe harbors.",
+      "risk_factors": [
+        "Concentrated stock position requiring 10b5-1 plan coordination",
+        "Trading window restrictions requiring securities law compliance",
+        "Insider trading safe harbor coordination with corporate counsel"
+      ],
+      "regulatory_flags": [
+        "SEC Rule 10b5-1 coordination required",
+        "Section 16 insider reporting obligations",
+        "Trading window restriction compliance"
+      ],
+      "recommended_action": "Proceed with enhanced documentation review"
+    },
+    "onboarding_summary": {
+      "client_overview": "Robert and Diane Mercer-Hastings are a married high-net-worth couple seeking comprehensive wealth management and estate planning services. Robert is CEO of a publicly traded healthcare company with a concentrated $40M employer stock position; Diane is a law firm partner. They are pursuing diversification of the concentrated position while navigating insider trading restrictions, trading windows, and potential 10b5-1 plan implementation. Total estimated AUM is $67M including the stock position, real estate portfolio, and cash from recent stock sales.",
+      "complexity": "ELEVATED",
+      "key_requirements": [
+        "Coordination with corporate counsel on trading window restrictions and insider trading compliance",
+        "10b5-1 plan design and implementation for systematic diversification of concentrated stock position",
+        "Securities law compliance framework for Section 16 reporting and Form 4 filing obligations",
+        "Diversification strategy for $40M concentrated employer stock position",
+        "Comprehensive estate planning coordination for married couple with significant assets",
+        "Integration of real estate portfolio and cash holdings into overall wealth management strategy"
+      ],
+      "next_steps": [
+        "Collect standard onboarding documentation plus corporate insider trading policy and current trading window schedule",
+        "Enhanced due diligence: verify employment status, review existing 10b5-1 plans if any, obtain corporate counsel contact information",
+        "Compliance review checkpoint: assess Section 16 reporting status and coordinate securities law requirements with legal team",
+        "Engage tax and legal advisors to design compliant 10b5-1 plan structure for diversification",
+        "Source of funds verification for cash from recent stock sales (standard enhanced documentation)",
+        "Assign senior relationship manager with executive compensation and concentrated position expertise",
+        "Schedule compliance committee briefing on ongoing securities law coordination requirements",
+        "Develop diversification timeline that respects trading windows and insider trading restrictions"
+      ],
+      "estimated_timeline": "4-6 weeks to complete enhanced onboarding and compliance review; diversification implementation timeline will depend on trading window availability and 10b5-1 plan setup requirements"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0314",
+      "client_name": "Global Impact Partners Foundation",
+      "client_type": "Institutional",
+      "requested_services": "Impact Investing and ESG",
+      "estimated_aum": 95000000,
+      "submission_date": "1/19/2026",
+      "status": "New",
+      "description": "Private foundation focused on climate and social justice seeking $95M allocation to impact investment strategies. Requires detailed impact reporting aligned with UN Sustainable Development Goals. Board has approved investment but requires quarterly narrative reports on measurable outcomes in addition to financial performance. Foundation is evaluating three firms simultaneously — onboarding speed and reporting capabilities are key differentiators in their decision."
+    },
+    "risk_assessment": {
+      "risk_level": "LOW",
+      "confidence": 0.75,
+      "reasoning": "This application presents a standard institutional client profile with no material red flags under FATF, FinCEN CDD, or BSA/AML frameworks. The client is a private foundation with a clearly articulated investment mandate (impact investing/ESG) aligned with its stated mission (climate and social justice). The requested services are consistent with the foundation's purpose. The $95M AUM is substantial but appropriate for an institutional foundation. The foundation's requirements for detailed impact reporting and alignment with UN Sustainable Development Goals demonstrate organizational sophistication and transparency regarding investment objectives. The competitive selection process (evaluating three firms simultaneously) and emphasis on onboarding speed is consistent with standard institutional procurement practices and does not present evasion indicators. No beneficial ownership opacity is present — private foundations have defined governance structures and IRS disclosure requirements under Section 501(c)(3). No PEP indicators, offshore jurisdictions, source-of-funds gaps, refusal of contact, or unverified introducers are evident. The foundation's board approval process indicates proper governance controls. However, confidence is reduced to 0.75 due to limited documentation provided in this initial submission — standard onboarding would require verification of 501(c)(3) status, review of foundation charter/bylaws, confirmation of board resolution authorizing the investment, and standard KYC documentation for authorized signatories. These are routine requirements for institutional onboarding and do not elevate risk level, but their absence from this initial submission prevents a higher confidence score.",
+      "risk_factors": [],
+      "regulatory_flags": [],
+      "recommended_action": "Proceed with standard onboarding"
+    },
+    "onboarding_summary": {
+      "client_overview": "Global Impact Partners Foundation is a private foundation seeking a $95M allocation to impact investing and ESG strategies aligned with climate and social justice objectives. The foundation requires comprehensive impact reporting tied to UN Sustainable Development Goals and quarterly narrative outcome reports in addition to standard performance metrics. They are conducting a competitive selection process among three firms with onboarding speed and reporting capabilities as key decision factors.",
+      "complexity": "ELEVATED",
+      "key_requirements": [
+        "Verification of 501(c)(3) tax-exempt status and foundation charter",
+        "Board resolution authorizing the $95M investment allocation",
+        "KYC documentation for all authorized signatories",
+        "Impact reporting framework aligned with UN Sustainable Development Goals",
+        "Quarterly narrative reporting capability on measurable social and environmental outcomes",
+        "ESG and impact investment strategy proposal tailored to climate and social justice mandate"
+      ],
+      "next_steps": [
+        "Complete standard institutional KYC documentation collection including foundation charter, bylaws, and IRS determination letter",
+        "Obtain and review board resolution authorizing investment and identifying authorized signatories",
+        "Design customized impact reporting framework mapping investments to specific UN SDG targets",
+        "Develop quarterly narrative reporting template for measurable outcomes",
+        "Prepare ESG portfolio construction proposal aligned with climate and social justice focus",
+        "Assign relationship manager with impact investing expertise",
+        "Schedule foundation board presentation to demonstrate reporting capabilities and competitive differentiation"
+      ],
+      "estimated_timeline": "4-6 weeks for complete onboarding including custom impact reporting framework development"
+    }
+  },
+  {
+    "application": {
+      "application_id": "APP-2026-0315",
+      "client_name": "R. Ashford (via Introducer)",
+      "client_type": "High-Net-Worth Individual",
+      "requested_services": "Wealth Management",
+      "estimated_aum": 120000000,
+      "submission_date": "1/20/2026",
+      "status": "New",
+      "description": "Individual client with no prior relationship with Crestview. Initial contact was made through an unaffiliated third-party introducer who is not a known contact of the firm. Source of wealth listed as 'private investments and real estate development' with no supporting documentation provided. Client is requesting that the account be opened in the name of an offshore trust rather than in their personal name. Has requested that all communications be routed through their advisor rather than directly to the client. Declined a standard introductory call with the relationship manager. No documentation has been submitted beyond the initial application form."
+    },
+    "risk_assessment": {
+      "risk_level": "CRITICAL",
+      "confidence": 0.95,
+      "reasoning": "This application presents multiple severe red flags that combine to form a pattern consistent with concealment behavior and potential placement/layering typology under FATF guidance. The client exhibits seven distinct risk factors: (1) Beneficial ownership opacity through use of an offshore trust structure without disclosed beneficial owners; (2) Source-of-funds gaps with vague descriptions ('private investments and real estate development') and zero supporting documentation; (3) Unverified introducer with no established relationship to the firm; (4) Refusal of standard contact by declining the introductory call with the relationship manager; (5) Insistence that all communications be routed through an intermediary rather than direct client contact; (6) Use of offshore jurisdictions to obscure identity; (7) Complete absence of required KYC documentation beyond the application form. The combination of offshore trust structuring, refusal of direct contact, reliance on an unknown introducer, and complete documentation absence is not a correctable administrative gap — it represents unwillingness or inability to meet basic CDD requirements under 31 CFR 1010.230. The firm cannot identify or verify beneficial ownership, cannot understand the nature and purpose of the relationship, and cannot verify source of funds. Under FinCEN CDD requirements, these are mandatory elements that must be obtained before account opening. The pattern of behavior — offshore structure + intermediary-only contact + refusal of standard calls + unverified introducer + no documentation — is consistent with deliberate concealment rather than administrative delay. This triggers SAR consideration under 31 CFR 1023.320 on two prongs: the transaction pattern has no apparent lawful purpose (client refuses basic transparency measures required for legitimate wealth management), and the structure appears designed to evade BSA requirements (offshore trust + intermediary barriers + documentation refusal). The $120M AUM makes this a high-value relationship, which elevates the concealment pattern from administrative concern to potential placement/layering activity. Confidence is 0.95 because the evidence is unambiguous and documented in the application itself — no inference is required.",
+      "risk_factors": [
+        "Beneficial ownership opacity — offshore trust structure with no disclosed beneficial owners",
+        "Source-of-funds gaps — vague description with zero supporting documentation",
+        "Unverified introducer — third party with no established firm relationship",
+        "Refusal of standard contact — declined introductory call with relationship manager",
+        "Offshore jurisdictions — account requested in name of offshore trust rather than personal name",
+        "Missing KYC documentation — no materials submitted beyond application form",
+        "Intermediary-only communication — all contact routed through advisor rather than direct client access"
+      ],
+      "regulatory_flags": [
+        "FinCEN CDD violation — 31 CFR 1010.230 — unable to identify or verify beneficial ownership",
+        "FinCEN CDD violation — 31 CFR 1010.230 — unable to understand nature and purpose of relationship",
+        "SAR consideration — 31 CFR 1023.320 — no apparent lawful purpose",
+        "SAR consideration — 31 CFR 1023.320 — designed to evade BSA requirements",
+        "FATF placement/layering typology — concealment pattern with offshore structure and intermediary barriers"
+      ],
+      "recommended_action": "Escalate to Chief Compliance Officer — do not proceed"
+    },
+    "onboarding_summary": {
+      "client_overview": "High-net-worth individual (R. Ashford) seeking wealth management services for $120M AUM, introduced through an unaffiliated third party with no prior firm relationship. Client requests account opening via offshore trust structure with all communications routed through an advisor, has declined direct relationship manager contact, and has provided no documentation beyond the application form. Source of wealth stated as 'private investments and real estate development' without supporting evidence.",
+      "complexity": "COMPLEX",
+      "key_requirements": [
+        "Immediate escalation to Chief Compliance Officer and compliance committee required before any further action",
+        "Beneficial ownership identification and verification per 31 CFR 1010.230 mandatory prior to any engagement",
+        "Source of funds and source of wealth documentation with independent verification required",
+        "Direct client contact and identity verification cannot be waived — intermediary-only arrangement is not acceptable under CDD requirements",
+        "Trust documentation including settlor, trustee, protector, and beneficiary identification required",
+        "Introducer due diligence and relationship verification required",
+        "SAR filing consideration per 31 CFR 1023.320 due to pattern consistent with evasion of BSA requirements"
+      ],
+      "next_steps": [
+        "Do not proceed with any onboarding activities pending compliance committee review",
+        "Chief Compliance Officer to review application against SAR filing criteria within 24 hours",
+        "Compliance committee convened to evaluate whether engagement should be declined outright",
+        "If committee does not immediately decline: external legal counsel consulted on regulatory exposure",
+        "If proceeding considered: enhanced due diligence protocol designed requiring complete beneficial ownership transparency, direct client verification, independent source of funds validation, and elimination of intermediary-only communication structure",
+        "Document declination decision or enhanced due diligence requirements in writing",
+        "If declined: file SAR if facts warrant under 31 CFR 1023.320 reporting obligations"
+      ],
+      "estimated_timeline": "Timeline suspended pending compliance committee decision (typically 5-10 business days). If engagement is not declined and enhanced due diligence is required, minimum 12-16 weeks for remediation and verification, contingent on full client cooperation with transparency requirements."
+    }
+  }
+]
