@@ -61,7 +61,7 @@ Two of the architectural calls in this proposal went against the mentor's initia
 
 **monday.com board integration.** Wire the pipeline output into a live monday board with HITL columns, RM briefing views, and a compliance queue. The architecture for this is in Part 1 of the proposal; the POC currently produces structured JSON that would be written via the monday GraphQL API or the monday MCP server.
 
-**Document ingestion pipeline.** Add an upstream stage that ingests PDFs and scanned documents, extracts structured fields, and feeds the extraction into the risk assessment stage. This closes the loop on the RPA problem Crestview experienced in 2024.
+**Document ingestion pipeline.** Add an upstream stage that ingests PDFs and scanned documents, extracts structured fields, and feeds the extraction into the risk assessment stage. This closes the loop on the RPA problem Crestview experienced.
 
 **Shadow-mode evaluation harness.** Build a test harness that runs the pipeline against historical labeled cases (once labeled by Priya's team, not synthetically) and tracks override rate over time as prompts iterate. This is the production validation mechanism described in the limitations section.
 
