@@ -11,8 +11,8 @@ The pipeline reads 15 sample client applications from a CSV and processes each t
 Requirements: Node 24, an Anthropic API key with credit.
 
 ```bash
-git clone <repo>
-cd crestview
+git clone https://github.com/dixob/crestview-fde-poc.git
+cd crestview-fde-poc
 npm install
 cp .env.example .env
 # Edit .env to add your ANTHROPIC_API_KEY
