@@ -67,6 +67,36 @@ Two of the architectural calls in this proposal went against the mentor's initia
 
 **Copilot Studio agent over monday MCP.** The M365-native RM experience described in the proposal's three-layer AI model. RMs never touch monday directly — they interact with Copilot in Outlook and Teams, which reads and writes monday data via MCP. This is the architecture that addresses what Claire identified in discovery as the core problem — judgment workers spending their day on data entry instead of judgment.
 
+## Extension work — April 9-15
+
+Following submission, the engagement was extended to build the
+monday.com integration originally listed under "What I would do
+with more time." Working against a monday.com enterprise trial,
+the build added an idempotent board provisioner (`bootstrap.ts`),
+a routing function that maps each application to one of three
+groups based on risk tier and confidence (`router.ts`), a writer
+that publishes each application to the live board with all
+column values populated (`writer.ts`), and an orchestration
+script that runs the full 15-application publish (`publish.ts`).
+The pipeline output JSON (`output/final-15.json`) became the
+contract boundary between the original submission and the
+extension — the pipeline does not know monday exists, and the
+publisher does not modify the pipeline.
+
+Two architectural decisions surfaced during the integration are
+documented in `CLAUDE.md` and `monday_lessons.md`: the
+Recommended action and Regulatory flags columns were originally
+designed as enums but the pipeline produces natural-language
+output, so both columns were reframed as analyst workflow
+tagging surfaces while the model's prose lives in the Risk
+factors long_text column alongside the model's reasoning. This
+preserved the model's output without forcing it through a
+fragile translation layer.
+
+A generalized version of the lessons from this engagement is
+captured in `fde_lessons.md` for application to future
+regulated-industry FDE deployments.
+
 ---
 
 Built for the monday.com Forward Deployed Engineer take-home assignment, April 2026.

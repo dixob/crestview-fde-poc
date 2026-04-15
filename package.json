@@ -6,6 +6,7 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "bootstrap": "tsx src/scripts/bootstrap.ts",
+    "publish": "tsx src/scripts/publish.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
