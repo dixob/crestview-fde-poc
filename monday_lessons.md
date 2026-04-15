@@ -122,9 +122,54 @@ Dropdowns have a board-level update mutation: update_dropdown_column(board_id, i
 Schema introspection technique: filter mutationType.fields by /create.*column/i
 For step 2.4's schema check, the mutationType.fields intersection of /create/i and /column/i returned exactly the five mutations that matter: create_column, create_status_column, create_dropdown_column, create_status_managed_column, create_dropdown_managed_column. That filter is the canonical way to find typed variants for a given column type. Also worth checking /type_name/i for the input-type side (CreateDropdownColumnSettingsInput, CreateDropdownLabelInput).
 
+Phase 3 probe — column_values payloads for create_item
+All the phase-2 lessons about silent substitution on CREATION do NOT carry over to column VALUE writes. Ran src/scripts/probe-column-values.ts (two probe items in Analyst review, round-tripped via items query, cleaned up via delete_item). No silent substitutions observed on value writes — every payload that went in came back identically in the create_item response and the follow-up items query. Both status forms ({label} and {index}) round-trip cleanly. So the defensive round-trip assertion pattern needed for status column CREATION (hasDesiredPalette) is NOT needed for item value writes.
+
+Shapes that work, confirmed empirically:
+  text              → raw string, e.g. "APP-2026-0301". No wrapper. value=same string, text=same string.
+  numbers           → JS number (0.87) OR stringified ("0.87") — both round-trip identically as "0.87" in both text and value. Prefer number form for TypeScript ergonomics.
+  date (day-only)   → {date: "YYYY-MM-DD"}. text="2026-04-14", value={"date":"2026-04-14"}.
+  date (with time)  → {date: "YYYY-MM-DD", time: "HH:MM:SS"}. ROUND-TRIP WORKS but there is a timezone-conversion trap in the `text` display: sent time="12:34:56" (UTC), text came back "2026-04-14 08:34" (local-converted, 4h offset suggests east-coast workspace timezone). The `value` field preserves what was sent. Lesson: for a processing-timestamp audit field, use day-precision only — avoids the conversion surprise.
+  long_text         → {text: "..."}. Newlines preserved. No rich-content wrapper needed for plain markdown-ish content.
+  status (by name)  → {label: "LOW"}. Monday resolves name → color-coupled numeric ID server-side; the response shows text="LOW" and value={"index":1}. Doesn't require the caller to know the numeric ID map.
+  status (by index) → {index: 101}. Direct. Response text="HIGH" (monday resolves index → name for display) and value={"index":101}. Also works, no substitution. Useful if you want to write by the numeric IDs in board.config.json.
+  dropdown (multi)  → {labels: ["FATF_R10","OFAC"]}. Response text="FATF_R10, OFAC" and value={"ids":[1,5],"override_all_ids":"true"}. The override_all_ids="true" is monday auto-setting; for create_item it's irrelevant (there are no existing labels to override).
+  dropdown (single) → {labels: ["BSA"]}. Same shape works for N=1 and N>1.
+
+Status value writes: by-label vs by-index — both work, pick one for convention
+The probe tested both forms. Both returned HTTP 200, both round-tripped identically. By-label ({label: "NAME"}) is the simpler choice because:
+  - The writer doesn't need to look up numeric IDs from board.config.json
+  - It's resilient to the status-palette-fix path (delete+recreate) which regenerates numeric IDs
+  - It's semantically what the writer knows: the risk_assessment has risk_level as a string
+By-index is still worth knowing as the escape hatch — if monday ever adds case sensitivity or multiple labels with the same name, the numeric ID in board.config.json is the unambiguous reference.
+
+create_item returns column_values inline — no separate readback needed
+The create_item mutation response can include { id, name, group { id title }, column_values { id type text value } } in the same call. For a writer that wants to verify what got stored without a round-trip query, selecting column_values on the create_item response is free. Used this in the probe and confirmed it returns what a follow-up items(ids:[$id]) query returns.
+
+Dropdown value response shape surprise — {ids, override_all_ids}
+Dropdown columns set by name come back in `value` as `{"ids":[1,5],"override_all_ids":"true"}` — an `ids` array (not `labels`) plus an `override_all_ids: "true"` flag. The `text` field is the human-readable comma-separated name list. If a shape-check helper wants to compare what-was-sent against what-came-back for dropdowns, parse `value.ids` and map them through the known labels list (from CreateDropdownColumnSettingsInput submission order — sequential 1..N, stable across reads). This is different from the phase-2.4 settings_str shape (which is {labels: [{id, name}, ...]}); settings_str describes the column's label catalog, value describes which labels are set on this item.
+
+create_update as a narrative surface — works, but rejected in favor of long_text column
+create_update(item_id, body) adds a markdown update to an item. Body round-trips cleanly in text_body (probe tested ~300-char body with headings, bullets, newlines — all preserved). Considered this for the onboarding-summary narrative surface but rejected: updates are a two-click surface (item detail → Updates tab) and are semantically a human collaboration channel, not a machine output channel. For a panel demo where one-click visibility in the row view matters, landing the narrative in a long_text column is the right call. Adding an 11th plain column (Onboarding summary, long_text) was cheaper than overloading updates. Left for future reference: create_update works, keep it in the toolkit for actual human-collaboration use cases.
+
+Item name is freely settable via create_item.item_name
+No constraints observed — em-dash, colons, spaces, numbers all accepted. Writer uses `${application_id} — ${client_name}` as the row header.
+
 What I have NOT exercised firsthand (so no lessons yet)
 update_dropdown_column (the revision-aware label-editing path) — exists, not used.
 create_*_managed_column — workspace-level shared columns, not relevant to this project.
-Anything phase 3 (item creation, value writing).
-Rate limits — haven't hit them.
+change_column_value / change_multiple_column_values — for updating items after creation. Only create_item path exercised so far.
+Rate limits — haven't hit them, though the publish script (step 3) will do 15 consecutive create_item calls which is worth monitoring.
+
+Phase 3 wire-in — pipeline contract vs. board contract, a gap that only surfaces at wire-in
+During Phase 3 Step 2B, attempting to build the Recommended action column payload revealed that the pipeline's RiskAssessmentSchema types recommended_action as unconstrained z.string(), while the board's Recommended action status column was designed around four enum labels (AUTO_APPROVE, HUMAN_REVIEW, ESCALATE, REJECT). All 15 sample applications produced free-text strings that did not match any of the four labels ("Proceed with standard onboarding", "Escalate to Chief Compliance Officer — do not proceed", etc.).
+
+The gap existed because the two layers were designed consistently within themselves but not consistently with each other. Neither layer had a bug. The bug was at the seam.
+
+Lessons:
+- Pipeline output schemas (Zod) and board column schemas (monday API) are two separate contracts. They need to be cross-checked, not just independently validated. A Zod schema is a guard against malformed pipeline output; it says nothing about downstream consumer expectations.
+- Free-text fields in a Zod schema are a tell. Anywhere the schema is permissive, the wire-in layer downstream will either inherit the permissiveness or need to impose structure. That decision deserves to be explicit, not inherited by accident.
+- The "stop on surprise, report, wait for ack" discipline caught this before any live API calls were made. The writer was fully built and typecheck-clean before the issue was discovered, but zero state had been written to the board. Cost of the pause: seconds. Cost of writing 15 broken rows to the live demo board: significantly more.
+- In a real FDE engagement, this kind of gap is exactly what the first deployment reveals, and it is cheaper to find it in a probe / test-write than in production. The probe-first, stop-on-surprise discipline is not overhead — it is the mechanism that surfaces integration gaps early.
+- Schema-to-schema gaps are resolved by picking which layer owns the contract. In this case, the pipeline owns the natural language (don't fight the model), and the board column was reframed to own a different concept (analyst workflow tagging) rather than being a mirror of the model output. The model's free-text recommendation rides along in the Risk factors long_text so the detail isn't lost.
 

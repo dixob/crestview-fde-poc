@@ -36,6 +36,7 @@ function makeConfig(): BoardConfig {
       overrideRationale: "col_override_rationale",
       processingTimestamp: "col_processing_timestamp",
       pipelineVersion: "col_pipeline_version",
+      onboardingSummary: "col_onboarding_summary",
     },
   };
 }

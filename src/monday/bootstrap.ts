@@ -29,6 +29,7 @@ export type BoardConfig = {
     overrideRationale: string;
     processingTimestamp: string;
     pipelineVersion: string;
+    onboardingSummary: string;
   };
 };
 
@@ -221,7 +222,8 @@ type PlainColumnKey =
   | "riskFactors"
   | "overrideRationale"
   | "processingTimestamp"
-  | "pipelineVersion";
+  | "pipelineVersion"
+  | "onboardingSummary";
 
 type PlainColumnSpec = { key: PlainColumnKey; title: string; type: PlainColumnType };
 
@@ -236,6 +238,7 @@ const PLAIN_COLUMN_SPECS: readonly PlainColumnSpec[] = [
   { key: "overrideRationale", title: "Override rationale", type: "long_text" },
   { key: "processingTimestamp", title: "Processing timestamp", type: "date" },
   { key: "pipelineVersion", title: "Pipeline version", type: "text" },
+  { key: "onboardingSummary", title: "Onboarding summary", type: "long_text" },
 ];
 
 type StatusColumnKey = "riskTier" | "recommendedAction" | "analystOverride";
@@ -374,6 +377,7 @@ function hasAllColumns(config: PartialBoardConfig): config is BoardConfig {
     hasString(rec["overrideRationale"]) &&
     hasString(rec["processingTimestamp"]) &&
     hasString(rec["pipelineVersion"]) &&
+    hasString(rec["onboardingSummary"]) &&
     hasStatusId(rec["riskTier"]) &&
     hasStatusId(rec["recommendedAction"]) &&
     hasStatusId(rec["analystOverride"])
@@ -773,7 +777,7 @@ async function createPlainColumnsIntoConfig(existing: PartialBoardConfig): Promi
   // Post-creation verification — re-query and confirm every plain column
   // title is present. Catches silent failures where create_column returned
   // without error but the column didn't land.
-  log("Re-listing columns to verify all six plain columns exist...");
+  log(`Re-listing columns to verify all ${PLAIN_COLUMN_SPECS.length} plain columns exist...`);
   const onBoardAfter = await listColumns(existing.boardId);
   const titleSet = new Set(onBoardAfter.map((c) => c.title));
   const missing = PLAIN_COLUMN_SPECS.filter((s) => !titleSet.has(s.title));
@@ -795,6 +799,7 @@ async function createPlainColumnsIntoConfig(existing: PartialBoardConfig): Promi
     overrideRationale: plainIds.overrideRationale!,
     processingTimestamp: plainIds.processingTimestamp!,
     pipelineVersion: plainIds.pipelineVersion!,
+    onboardingSummary: plainIds.onboardingSummary!,
   };
 
   const updated: PartialBoardConfig = {
