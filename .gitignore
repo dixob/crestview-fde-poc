@@ -3,3 +3,6 @@ node_modules/
 dist
 output/*
 !output/final-15.json
+board.config.json
+CLAUDE.md
+handoff.md
